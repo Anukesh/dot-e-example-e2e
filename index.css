@@ -1,0 +1,141 @@
+.tabs{
+    margin-right: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.filters{
+    margin-top: 18px;
+    padding-bottom: 6px;
+    font-size: 18px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+
+.fa-angle-down{
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.dropdown-icon{
+text-align: right;
+}
+
+section.range-slider {
+    margin-top: 18px;
+    position: relative;
+    text-align: center;
+}
+.rangeValues1{
+    margin-top: 30px;
+    display: inline-block;
+    text-align: left;
+}
+.rangeValues2{
+    margin-top: 30px;
+    display: inline-block;
+    text-align: right;
+}
+section.range-slider input {
+    pointer-events: none;
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    top: 15px;
+    outline: none;
+    height: 20px;
+    margin: 0;
+    color: grey;
+    padding: 0;
+}
+
+section.range-slider input::-webkit-slider-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 1;
+    outline: 0;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+
+section.range-slider input::-moz-range-thumb {
+    pointer-events: all;
+    position: relative;
+    z-index: 10;
+    -moz-appearance: none;
+    width: 25px;
+    height: 25px;
+}
+
+section.range-slider input::-moz-range-track {
+    position: relative;
+    z-index: -1;
+    background-color: rgba(0, 0, 0, 1);
+    border: 0;
+}
+section.range-slider input:last-of-type::-moz-range-track {
+    -moz-appearance: none;
+    background: none transparent;
+    border: 0;
+}
+  section.range-slider input[type=range]::-moz-focus-outer {
+  border: 0;
+}
+
+.checkboxes {
+    display: none;
+    padding-top: 8px;
+    background: rgb(230 229 218);
+    border-top: 1px solid;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    background: white;
+    height: 85px;
+    width: 50%;
+  }
+.bottom-left-text{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+input[type=checkbox]{
+    margin-right: 6px !important;
+}
+
+label{
+    display: block !important;
+    font-size: 14px !important;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: dodgerblue;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+  a {
+      color: black !important;
+    }
+
+    a:hover{
+        text-decoration: none !important;
+    }
+
